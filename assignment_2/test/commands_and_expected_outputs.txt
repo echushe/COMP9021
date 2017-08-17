@@ -1,0 +1,264 @@
+TEST 1 BEGIN
+$ python3 maze.py --file wrong1.txt
+Incorrect input.
+
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 maze.py --file wrong2.txt
+Incorrect input.
+
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 maze.py --file wrong3.txt
+Incorrect input.
+
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 maze.py --file wrong4.txt
+Incorrect input.
+
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 maze.py --file maze3.txt
+The maze has 4 gates.
+The maze has no wall.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 maze.py -print --file maze3.txt
+
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 maze.py --file maze4.txt
+The maze has no gate.
+The maze has a single wall that are all connected.
+The maze has 2 inaccessible inner points.
+The maze has no accessible area.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 maze.py -print --file maze4.txt
+
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 maze.py --file maze5.txt
+The maze has 8 gates.
+The maze has a single wall that are all connected.
+The maze has no inaccessible inner point.
+The maze has 2 accessible areas.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 maze.py -print --file maze5.txt
+
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 maze.py --file maze6.txt
+The maze has 8 gates.
+The maze has a single wall that are all connected.
+The maze has no inaccessible inner point.
+The maze has 3 accessible areas.
+The maze has no accessible cul-de-sac.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 maze.py -print --file maze6.txt
+
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 maze.py --file maze7.txt
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has 15 inaccessible inner points.
+The maze has a unique accessible area.
+The maze has no accessible cul-de-sac.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 maze.py -print --file maze7.txt
+
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 maze.py --file maze8.txt
+The maze has 6 gates.
+The maze has a single wall that are all connected.
+The maze has no inaccessible inner point.
+The maze has 3 accessible areas.
+The maze has accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 maze.py -print --file maze8.txt
+
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 maze.py --file maze9.txt
+The maze has 10 gates.
+The maze has a single wall that are all connected.
+The maze has no inaccessible inner point.
+The maze has 5 accessible areas.
+The maze has accessible cul-de-sacs that are all connected.
+The maze has 3 entry-exit paths with no intersections not to cul-de-sacs.
+
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 maze.py -print --file maze9.txt
+
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 maze.py --file maze10.txt
+The maze has 29 gates.
+The maze has 21 sets of walls that are all connected.
+The maze has 12 inaccessible inner points.
+The maze has 8 accessible areas.
+The maze has 26 sets of accessible cul-de-sacs that are all connected.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 maze.py -print --file maze10.txt
+
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 maze.py --file maze11.txt
+The maze has 2 gates.
+The maze has 3 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 3 sets of accessible cul-de-sacs that are all connected.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 maze.py -print --file maze11.txt
+
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 maze.py --file maze12.txt
+The maze has 45 gates.
+The maze has 41 sets of walls that are all connected.
+The maze has 91 inaccessible inner points.
+The maze has 17 accessible areas.
+The maze has 98 sets of accessible cul-de-sacs that are all connected.
+The maze has 4 entry-exit paths with no intersections not to cul-de-sacs.
+
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 maze.py -print --file maze12.txt
+
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 maze.py --file maze13.txt
+The maze has 80 gates.
+The maze has 72 sets of walls that are all connected.
+The maze has 195 inaccessible inner points.
+The maze has 26 accessible areas.
+The maze has 180 sets of accessible cul-de-sacs that are all connected.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 maze.py -print --file maze13.txt
+
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 maze.py --file labyrinth2.txt
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 6 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 maze.py -print --file labyrinth2.txt
+
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 maze.py --file labyrinth3.txt
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 3 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 maze.py -print --file labyrinth3.txt
+
+TEST 30 END
+
+TEST 31 BEGIN
+$ python3 maze.py --file labyrinth4.txt
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 8 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 31 END
+
+TEST 32 BEGIN
+$ python3 maze.py -print --file labyrinth4.txt
+
+TEST 32 END
+
+TEST 33 BEGIN
+$ python3 maze.py --file labyrinth5.txt
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 32 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+TEST 33 END
+
+TEST 34 BEGIN
+$ python3 maze.py -print --file labyrinth5.txt
+
+TEST 34 END
+
